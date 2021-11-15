@@ -1,4 +1,5 @@
-.heading-secondary {
+.heading-secondary,
+.heading-secondary-2 {
   font-size: 2.5rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -16,6 +17,9 @@
   &:hover {
     transform: skewY(2deg) skewX(15deg) scale(1, 1);
   }
+}
+.heading-secondary-2 {
+  font-size: 1.5rem;
 }
 .heading-rertiary {
   font-size: 1.6rem;

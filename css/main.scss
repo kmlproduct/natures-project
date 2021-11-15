@@ -2,11 +2,17 @@
 @import "../sass/abstracts/mixins";
 @import "../sass/layout/grid";
 @import "../sass/pages/home";
+
 @import "../sass/base/topography";
 @import "../sass/base/utility";
+
 @import "../sass/components/button";
 @import "../sass/components/composition";
 @import "../sass/components/feature-box";
+@import "../sass/components/card";
+@import "../sass/components/story";
+@import "../sass/components/bg-video";
+@import "../sass/components/form";
 
 *,
 *::after,
@@ -136,6 +142,13 @@ body {
 .btn:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
+}
+.btn-green {
+  color: white;
+  background-color: $color-primary;
+}
+.btn-green::after {
+  background-color: $color-primary;
 }
 @keyframes moveOnTop {
   0% {
